@@ -1,0 +1,54 @@
+.navbar-brand{
+    font-family: 'Vollkorn SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size:1.6rem !important;
+    letter-spacing: -0.02em;
+    line-height: 2.2rem;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 1.6rem !important;
+    font-weight: 500 !important;
+}
+
+.custom_nav-container {
+    padding-top: 2rem !important;
+}
+
+ul{
+    gap: 2rem;
+}
+
+.custom_nav-container .navbar-nav {
+    margin-left: auto;
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: .5rem 2rem !important;
+    text-align: center;
+    border-radius: .5rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.5s;
+    font-weight: 700;
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link:hover{
+    border-bottom-width: 2px !important;
+    border-radius: 0% !important;
+    border-bottom-style: solid !important;
+    border-color: white !important;
+    width:min-content !important;
+    align-items: center !important;
+    position:static !important;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: black !important;
+}
+    
+.navbar .navbar-toggler:focus{
+    color: black !important;
+    background-color: white !important;
+}
