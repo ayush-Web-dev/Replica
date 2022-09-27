@@ -1,0 +1,113 @@
+@import url('http://fonts.cdnfonts.com/css/work-sans');
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 62.5%;
+    height:100%;
+    width:100%;
+}
+
+.blog-nav{
+    margin-top: 8rem !important;   
+    border-bottom: 1px solid #D7CFDE !important;
+}
+
+.blog-nav-link{
+    color: #746F79 !important;
+}
+
+.blog-nav-item{
+    margin-right: 4rem !important;
+}
+
+.navbar-nav .blog-nav-item .blog-nav-link {
+    text-align: center;
+    border-radius: .5rem;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    font-weight: 700;
+}
+
+ .navbar-nav .nav-item .blog-nav-link:hover,
+.navbar-nav .blog-nav-item .active{
+    border-radius: 0% !important;
+    color: #0D6986 !important;
+    border-bottom-width: 3px !important;
+    border-bottom-style: solid !important;
+    border-color: #0D6986 !important;
+    /* width:min-content !important; */
+    align-items: center !important;
+    /* position:static !important; */
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: "";
+    height: .4rem;
+  }
+
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 50% !important;
+  }
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: black !important;
+}
+    
+.navbar .navbar-toggler:focus{
+    color: black !important;
+    background-color: white !important;
+}
+
+.blog-main{
+    margin-top: 8rem !important;
+}
+
+.img-head{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 140%;
+    color: #746F79;
+}
+
+.blog-sub-head{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 140%;
+    letter-spacing: -0.025em;
+    color: #746F79;
+    width:90% !important;
+}
+
+.read-btn{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 100%;
+    letter-spacing: -0.025em;
+}
+
+.but1{
+    border:none;
+    outline: none;
+    color: #4070F6;
+    margin-top:4rem !important;
+    background :none;
+    border-bottom: 3px solid #4070F6;
+    padding-bottom: .5rem;
+}
+

@@ -1,0 +1,139 @@
+@import url('http://fonts.cdnfonts.com/css/work-sans');
+
+*{
+    margin:0rem;
+    padding:0rem;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 62.5%;
+    height:100%;
+    width:100%;
+}
+
+.section1{
+    background: linear-gradient(180deg, rgba(142, 199, 210, 0.17) 0%, rgba(142, 199, 210, 0.27) 100%);
+    width:100%;
+}
+
+.sec1-form{
+    width:100%;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    margin: 2rem 0rem 5rem 5rem;
+    box-shadow: 0rem .4rem .4rem rgba(0, 0, 0, 0.25);
+}
+
+.outer-form{
+    text-align: left ;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #0D6986;
+    margin-top: 5rem !important;
+}
+
+.form-head{
+    padding-bottom:.6rem !important;
+    letter-spacing: -0.025em !important;
+    margin-left: 5rem !important;
+}
+
+.sec1-loc{
+    margin-top:9rem !important;
+    background-color: #0D6986;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 5rem !important;
+}
+
+.border-cont {
+    border: 1px solid #8EC7D2 !important;
+    border-radius: 2rem !important;
+}
+
+.sec2-column-1{
+    padding:4rem 6rem ;
+    border-radius: 2rem;
+    border: 1px solid #8EC7D2;
+    margin-left: 10rem;
+}
+
+.sec2-column-2{
+    padding:3rem 6rem;
+    border-radius: 2rem;
+    border: 1px solid #8EC7D2;
+    margin-left: 10rem;
+}
+
+.sec2-column-3{
+    padding:4rem 5rem ;
+    border-radius: 2rem;
+    border: 1px solid #8EC7D2;
+    margin-left: 10rem;
+}
+
+.butn,
+.button2{
+    display:inline-flex;
+    width:70%;
+    padding: 0rem 2rem;
+    height:4rem;
+    background: #EAECF1 !important;
+    border:none;
+    outline:none;
+    border-radius: 10rem !important;
+    overflow:hidden;
+    font-size:1.4rem;
+    font-weight: 500;
+    margin-left: 5rem !important;
+}
+
+.button-text,
+.button-icon,
+.button-text2,
+.button-icon2{
+    display:inline-flex;
+    align-items: center;
+    padding: 0 1rem;
+    height:100%;
+    color:#57628D;
+}
+
+.button2{
+    margin-left: 5rem !important;
+    background: #E6ECFE !important;
+    margin-bottom: 4rem !important;
+}
+
+.button-text2,
+.button-icon2{
+    color: #4070F6;
+}
+
+.social-icons{
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    display: flex;
+}
+
+.icon{
+    height:5rem;
+    border-radius: 10rem !important;
+    background: #EDE5F4 !important;
+    width:5rem;
+    padding: 1.3rem;
+}
+
+.twitter{
+    padding: 1.2rem !important;
+}
+
+.active::after,
+.active{
+    background-color: #8EC7D2 !important;
+    color: #00475D !important;
+}

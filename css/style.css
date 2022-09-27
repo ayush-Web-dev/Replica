@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-html{
+html,body{
     font-size: 62.5%;
     height:100%;
     width:100%;
@@ -23,6 +23,8 @@ html{
 
 .banner-heading{
     margin-top: 8rem !important;
+    margin-left: .5rem;
+    padding-left: 5rem;
     font-size:5rem; 
     font-weight:500 !important; 
     font-family: 'Work Sans'; 
@@ -30,14 +32,6 @@ html{
     color: white; 
     letter-spacing: -0.02em !important; 
     line-height: 5.9rem !important;
-}
-
-.btn{
-    border-radius: 1rem !important;
-    padding: 1rem !important;
-    color: #00475D !important;
-    font-weight: 500 !important;
-    font-size: 1.4rem !important;
 }
 
 .butn{
@@ -90,6 +84,7 @@ html{
     position: absolute !important;
     left: 33% !important;
     height:24rem !important;
+    width: 2% !important;
 }
 
 .vl2{
@@ -177,6 +172,11 @@ html{
 .img21{
     position: absolute;
     margin-top: 2rem !important;
+}
+
+.img-codt{
+    position :absolute !important;
+    margin: 2rem 0rem 0rem 1.5rem;
 }
 
 .img4{

@@ -1,0 +1,152 @@
+@import url('http://fonts.cdnfonts.com/css/work-sans');
+
+*{
+    margin:0rem;
+    padding:0rem;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 62.5%;
+    height:100%;
+    width:100%;
+}
+
+.header-main{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.sec2-head{
+    margin-top: 15rem;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 120%;
+    letter-spacing: -0.025em;
+    color: #00475D;
+}
+
+.sec2-sub-heading{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 140%;
+    text-align: justify;
+    color: #746F79;
+    padding-right: 4rem !important;
+}
+
+.sec2-img{
+    width:50% !important;
+    height:100%; 
+}
+
+.image1{
+    margin: 10rem 0rem 10rem 12rem;
+    margin-right: 0rem;
+    width:85%;
+}
+
+
+.button{
+    width:25%;
+    height:4.4rem;
+    background: #0D6986;
+    border-radius: 1rem !important;
+    color: #ffffff;
+    font-size: 1.4rem;
+    border:none;
+    margin-top: 2rem !important;
+}
+
+.section3{
+    width:100%;
+    /* height:60rem; */
+    background: linear-gradient(180deg, rgba(142, 199, 210, 0.17) 0%, rgba(142, 199, 210, 0.27) 100%);
+}
+
+.image2{
+    margin:12rem 14rem 12rem 8rem;
+}
+
+.sec3-margin{
+    height:100%;
+    width:90%;
+    margin: 14rem 12rem 10rem 10rem;
+    letter-spacing: -0.025em;
+    font-size: 3rem;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: #00475D;
+}
+
+.sec3-sub-heading{
+    margin-top: 3rem;
+    padding-right: 6rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 140%;
+    text-align: justify;
+    color: #746F79;
+    letter-spacing: 0.025em;
+    text-align: justify;
+}
+
+.sec4-margin{
+    margin-left: 10rem;
+    width:65%;
+}
+
+.sec4-head{
+    margin-top: 11rem;
+    margin-right: 4rem;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -0.025em;
+    color: #00475D;
+}
+
+.sec4-sub-head{
+    margin-top: 2rem;
+    margin-right: 7rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: justify;
+    color: #746F79;
+}
+
+.image3{
+    margin:10rem 10rem 10rem 14rem  ;
+}
+
+@media (max-width:998px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:760px)
+{
+    html{
+        font-size: 35%;
+    }
+}
+
+@media(max-width:500px)
+{
+    html{
+        font-size:20%;
+    }
+}
