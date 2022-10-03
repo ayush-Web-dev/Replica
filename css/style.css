@@ -38,6 +38,12 @@ html,body{
     margin-top: 6rem !important;
 }
 
+.book-btn{
+    background: #F4F4F4 !important;
+    color: #00475D !important;
+    height: 4.5rem !important;
+}
+
 .image1{
     height:100% !important;
 }
@@ -321,7 +327,7 @@ option{
 
 @media (max-width: 992px) {
     html{
-        font-size: 60% !important;
+        font-size: 50% !important;
     }
     .banner-heading{
         font-size: 4vw !important;
@@ -349,17 +355,24 @@ option{
 
 
 @media (max-width: 768px) {
-    html{
+    html,body{
         font-size:55% !important;
     }
     .banner-heading{
         font-size: 5vw !important;
         line-height: 3.5rem !important;
+        padding: 0 !important;
+        margin: 3rem 0rem !important;
     }
     .image1-parent{
-        height:40% !important;
+        height:15% !important;
         width: 100% !important;
-        margin-left: auto;
+        margin-left: 0 !important;
+        padding-top: 5rem !important ;
+    }
+    .image1{
+        height:100% !important;
+        width: 100% !important;
     }
     .chooseHeading,
     .deliverHeading,
@@ -367,8 +380,8 @@ option{
         font-size:3vw !important;
     }
     .img1{
-        height: 400px !important;
-        padding:auto !important;
+        height: 350px !important;
+        padding-left: 5rem !important;
     }     
 }
 

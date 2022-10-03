@@ -101,13 +101,68 @@ html,body{
     letter-spacing: -0.025em;
 }
 
-.but1{
+.but1,
+.but2{
     border:none;
     outline: none;
     color: #4070F6;
     margin-top:4rem !important;
     background :none;
-    border-bottom: 3px solid #4070F6;
+    border-bottom: .3rem solid #4070F6;
     padding-bottom: .5rem;
 }
+
+.card{
+    border: none !important;
+    outline:none !important;
+    padding-right: 2.5rem;
+    padding-left: 1rem;
+    margin-top: 10rem;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-date,
+.card-text{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.333333px;
+    color: #746F79;
+    margin-top: 1rem !important;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 120%;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.025em;
+    color: #00475D;
+}
+
+.but2{
+    margin-top: 2.5rem !important;
+}
+
+.pagination .a {
+    align-items: center !important;
+    border: none !important;
+    outline:none !important;   
+    font-weight: 500 !important;
+    font-size: 1.4rem !important;
+    line-height: 1.6rem !important;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.333333px;
+    color: #A3A0A7;
+    text-align: center !important;
+}
+
+
 
